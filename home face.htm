@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Facbook - log in or sign up</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-color: #f0f2f5;
+			font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+		}
+		#container{
+			margin: auto;
+			
+			zoom: 1;
+		}
+		.in4{
+			float: left;
+			margin-top: 100px;
+			width: 50%;
+
+			border: none;
+		}
+		.logosize{
+				margin-left: -28px;
+				height: 106px;			
+		}
+		h2{
+			margin-top: -15px;
+			font-weight: normal;
+		}
+		.bot{
+			float: right;
+			margin-top: 100px;
+			width: 50%;	
+		}
+		.bot1{
+			margin: auto;
+		    height: 456px;
+   			width: 396px;
+		}
+		.loginfb{
+    		background-color: #fff;
+    		border: none;
+    		border-radius: 8px;
+    		box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    		box-sizing: border-box;
+    		margin: 40px 0 0;
+    		padding: 20px 0 28px;
+   			width: 396px;
+		}
+		.accpass{
+				display: inline-block;
+   				font-size: 14px;
+    			margin: auto;
+    			padding: 6px 0;
+    			width: 396px;
+    			height: 132px
+		}
+		input[type=text]{
+			margin-left: auto;
+    		margin-right: auto;
+   			display: block;
+			margin-top: -6px;
+			width: 330px;
+			height: 30px;
+			padding: 14px 16px;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+		
+		}
+		input[type=password]{
+			margin-left: auto;
+    		margin-right: auto;
+   			display: block;
+   			margin-top: 12px;
+			width: 330px;
+			height: 30px;
+			padding: 14px 16px;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+		
+		}
+		input:hover{
+			border: 1px solid #387aff;
+		}
+		input:active{
+			border: none;
+		}
+		a{
+			text-decoration: none;
+			color: inherit;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+
+		.login{
+			width: 364px;
+			height: 48px;
+		}
+		.createaccount{
+			width: auto;
+			height: 48px;
+		}
+		.button{
+			margin-left: auto;
+    		margin-right: auto;
+   			display: block;	
+			opacity: 0.8;
+			border: none;
+			padding: 0px 16px;
+			text-decoration: none;
+			border-radius: 8px;
+			font-size: 20px;
+			color: white;
+			align-items: center;
+			font-weight: bold;
+		}
+		.colorlogin{
+			background-color: #1877f2;
+		}
+		.colorceate{
+			background-color: #42b72a;
+		}
+		.button:hover{
+			opacity: 1;
+		}
+		.createpage{
+			text-align: center;
+			margin-top: 28px;
+			color: inherit;
+		}
+		@media only screen and (max-width:900px) {
+  		/* For mobile phones: */
+  		.in4{
+  			text-align: center;
+  			margin-top: 0px;
+   			width:100%;
+  			}
+  		.logosize{
+				margin-left: 0;		
+		}
+  		.bot{
+  					margin-top: 0px;
+   					width:100%;
+  			}
+		}
+		#cre{
+				position: fixed;
+				font-style: italic;
+				text-decoration: underline;
+				bottom: 0;
+				right: 2px;
+	</style>
+</head>
+<body>
+	<div class="container">
+	<div class="in4">
+		<div style="width: 400px; margin: auto">
+			<img class="logosize" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+			<h2>Facebook helps you connect and share with the people in your life.</h2>
+		</div>
+	</div>
+	<div class="bot container">
+		<div class = "bot1">
+			<div class="loginfb">
+
+				<div class = "accpass">
+					<div>
+						<input type="text" name="account" placeholder="Email or Number Phone">
+					</div>
+					<div>
+						<input type="password" name="password" placeholder="Password">
+					</div>
+				</div>
+				<button class="button login colorlogin">Log In</button>
+				<div style="margin: 16px 0px 0px; width: 396px; height: 18px; text-align: center; color: #1877f2">
+					<a href="https://en-gb.facebook.com/recover/initiate/?ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE0NzYyNzEzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D">Forgotten Password?</a>
+						
+				</div>
+				<div style="align-items: center; border-bottom: 1px solid #dadd31; margin: 20px 16px; text-align: center"></div>
+				<div style="margin: center">
+				<button class="button createaccount colorceate">Create new account</button>
+				</div>
+			</div>
+			<div class="createpage">
+				<a href="https://www.facebook.com/pages/creation/?ref_type=comet_home"><strong>Create a page</strong></a> for a celebrity, band or business.
+			</div>
+		</div>
+	</div>
+</div>
+	<footer id="cre">Cre by Nothing</footer>
+</body>
+</html>
